@@ -119,6 +119,13 @@
     border-radius: 1em;
     width: 310px;
 }
+.weather__search-input::placeholder {
+    color: rgb(151, 221, 224);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    position: relative;
+    left: 12px;
+}
 .weather__search-btn-icon{
     padding: 0;
     font-size: 1.7rem;
@@ -248,6 +255,28 @@
     height: 1px;
     width: 100%;
     background-color: var(--color-accent);
+}
+/*FOOTER CONTACTOS */
+footer > div{
+    display: flex;
+    position: absolute;
+    color: whitesmoke;
+    left: 5%;
+
+}
+footer > div > p{
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+footer > div > a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+.bxl-linkedin-square {
+    color: #16baff;
+}
+.bxl-github {
+    color: #525252;
 }
 @media (min-width: 700px) {
     /* Section header titulo */

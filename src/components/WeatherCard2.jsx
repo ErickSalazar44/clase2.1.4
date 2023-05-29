@@ -43,7 +43,7 @@ const WeatherCard = ({weather, temp, handleSubmit, hasError}) => {
                     </button>
                 </nav>
                 <form onSubmit={handleSubmit} className="weather__search">
-                    <input id='inputValue' className="weather__search-input" type="text" />
+                    <input id='inputValue' className="weather__search-input" type="text" placeholder="City name"/>
                     <button className="weather__search-btn-icon">
                         <i className={`bx bx-search-alt ${hasError && 'animationSearch'}`}></i>
                     </button>
@@ -98,6 +98,13 @@ const WeatherCard = ({weather, temp, handleSubmit, hasError}) => {
                     </div>
                 </article>
             </section>
+            <footer>
+                <div>
+                <p>Contact me</p>
+                <a href="https://www.linkedin.com/in/erick-josep-salazar-8b8b6024b/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/ErickSalazar44/clase2.1.4" target="_blank" ><i class='bx bxl-github' ></i></a>
+                </div>
+            </footer>
         </main>
     )
 }
