@@ -139,6 +139,7 @@
     align-items: center;
     background-color: var(--color-background);
     justify-content: space-evenly;
+    user-select: none;
 }
 .weather__icon-Container {
     width: 100%;
